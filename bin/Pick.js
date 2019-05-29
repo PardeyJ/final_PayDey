@@ -18,15 +18,15 @@ class Pick {
 
         switch (this.tipo) {
             case "Suelo":
-                this.hover = this.app.loadImage("/data/Escenario/Suelo/tierra.png");
+                this.hover = this.app.loadImage("./data/Escenario/Suelo/tierra.png");
                 break;
 
             case "Mina":
-                this.hover = this.app.loadImage("/data/Escenario/Armas/mina1.png");
+                this.hover = this.app.loadImage("./data/Escenario/Armas/mina1.png");
                 break;
 
             case "Andamio":
-                this.hover = this.app.loadImage("/data/Escenario/Armas/andamio.png");
+                this.hover = this.app.loadImage("./data/Escenario/Armas/andamio.png");
                 break;
 
         } //cierra el switch de tipo

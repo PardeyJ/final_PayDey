@@ -25,7 +25,7 @@ class Elemento {
         this.boom = [];
 
         for (let i = 0; i < 5; i++) {
-            this.boom[i] = this.app.loadImage("/data/Escenario/Armas/explosion" + (i + 1) + ".png");
+            this.boom[i] = this.app.loadImage("./data/Escenario/Armas/explosion" + (i + 1) + ".png");
         }
 
         switch (this.tipo) {
@@ -35,7 +35,7 @@ class Elemento {
                 this.ele = [];
 
                 for (let i = 0; i < 3; i++) {
-                    this.ele[i] = this.app.loadImage("/data/Escenario/Armas/mina" + (i + 1) + ".png");
+                    this.ele[i] = this.app.loadImage("./data/Escenario/Armas/mina" + (i + 1) + ".png");
                 }
 
                 this.ancho = 100;
@@ -46,7 +46,7 @@ class Elemento {
                 break;
 
             case "Andamio":
-                this.ele = this.app.loadImage("/data/Escenario/Armas/andamio.png");
+                this.ele = this.app.loadImage("./data/Escenario/Armas/andamio.png");
                 this.ancho = 100;
                 this.alto = 35;
                 this.y += 50 - this.alto / 2;

@@ -29,12 +29,12 @@ class Logica {
         this.ronda = 1;
 
         //cursor
-        this.cursorUno = this.app.loadImage("/data/Escenario/Iconos/cursorUno.png");
-        this.cursorDos = this.app.loadImage("/data/Escenario/Iconos/cursorDos.png");
+        this.cursorUno = this.app.loadImage("./data/Escenario/Iconos/cursorUno.png");
+        this.cursorDos = this.app.loadImage("./data/Escenario/Iconos/cursorDos.png");
 
         //turno de poner 
         this.coger = false;
-        this.jackpot = this.app.loadImage("/data/Escenario/Iconos/jackpot.png");
+        this.jackpot = this.app.loadImage("./data/Escenario/Iconos/jackpot.png");
         this.objetos = [];
         this.poner = false;
         this.turnoCoger = 1;
@@ -82,8 +82,8 @@ class Logica {
         }
 
         //audio
-        this.chan = this.app.loadSound("/data/Audio/chan.mp3")
-        this.beep = this.app.loadSound("/data/Audio/beep.mp3")
+        this.chan = this.app.loadSound("./data/Audio/chan.mp3")
+        this.beep = this.app.loadSound("./data/Audio/beep.mp3")
 
         //crea la cuadricula 
 
@@ -102,7 +102,7 @@ class Logica {
 
         //mouse del juego
 
-        this.mouse = this.app.loadImage("/data/Escenario/Iconos/mouse.png");
+        this.mouse = this.app.loadImage("./data/Escenario/Iconos/mouse.png");
         this.menus.play();
 
     } //cierra el constructor

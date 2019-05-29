@@ -75,8 +75,8 @@ class Jugador {
 
         //audio
 
-        this.caida = this.app.loadSound("/data/Audio/sheepfalls.mp3");
-        this.kaboom = this.app.loadSound("/data/Audio/kaboom.mp3")
+        this.caida = this.app.loadSound("./data/Audio/sheepfalls.mp3");
+        this.kaboom = this.app.loadSound("./data/Audio/kaboom.mp3")
 
 
         //animaciones
@@ -96,32 +96,32 @@ class Jugador {
 
 
         for (let i = 0; i < 10; i++) {
-            if (i < 2) this.quietoD[i] = this.app.loadImage("/data/Jugadores/Oveja/quietoD" + (i + 1) + ".png");
-            if (i < 2) this.quietoI[i] = this.app.loadImage("/data/Jugadores/Oveja/quietoI" + (i + 1) + ".png");
-            if (i < 3) this.estrellitas[i] = this.app.loadImage("/data/Jugadores/Oveja/efectomuerto" + (i + 1) + ".png");
-            if (i < 4) this.deslizandoD[i] = this.app.loadImage("/data/Jugadores/Oveja/deslizandoD" + (i + 1) + ".png");
-            if (i < 4) this.deslizandoI[i] = this.app.loadImage("/data/Jugadores/Oveja/deslizandoI" + (i + 1) + ".png");
-            if (i < 10) this.corriendoD[i] = this.app.loadImage("/data/Jugadores/Oveja/corriendoD" + (i + 1) + ".png");
-            if (i < 10) this.corriendoI[i] = this.app.loadImage("/data/Jugadores/Oveja/corriendoI" + (i + 1) + ".png");
+            if (i < 2) this.quietoD[i] = this.app.loadImage("./data/Jugadores/Oveja/quietoD" + (i + 1) + ".png");
+            if (i < 2) this.quietoI[i] = this.app.loadImage("./data/Jugadores/Oveja/quietoI" + (i + 1) + ".png");
+            if (i < 3) this.estrellitas[i] = this.app.loadImage("./data/Jugadores/Oveja/efectomuerto" + (i + 1) + ".png");
+            if (i < 4) this.deslizandoD[i] = this.app.loadImage("./data/Jugadores/Oveja/deslizandoD" + (i + 1) + ".png");
+            if (i < 4) this.deslizandoI[i] = this.app.loadImage("./data/Jugadores/Oveja/deslizandoI" + (i + 1) + ".png");
+            if (i < 10) this.corriendoD[i] = this.app.loadImage("./data/Jugadores/Oveja/corriendoD" + (i + 1) + ".png");
+            if (i < 10) this.corriendoI[i] = this.app.loadImage("./data/Jugadores/Oveja/corriendoI" + (i + 1) + ".png");
         }
 
-        this.agachadoI = this.app.loadImage("/data/Jugadores/Oveja/agachadoI.png");
-        this.agachadoD = this.app.loadImage("/data/Jugadores/Oveja/agachadoD.png");
+        this.agachadoI = this.app.loadImage("./data/Jugadores/Oveja/agachadoI.png");
+        this.agachadoD = this.app.loadImage("./data/Jugadores/Oveja/agachadoD.png");
 
-        this.aplastadoI = this.app.loadImage("/data/Jugadores/Oveja/aplastadoI.png");
-        this.aplastadoD = this.app.loadImage("/data/Jugadores/Oveja/aplastadoD.png");
+        this.aplastadoI = this.app.loadImage("./data/Jugadores/Oveja/aplastadoI.png");
+        this.aplastadoD = this.app.loadImage("./data/Jugadores/Oveja/aplastadoD.png");
 
-        this.arrastrandoseI = this.app.loadImage("/data/Jugadores/Oveja/arrastrandoseI.png");
-        this.arrastrandoseD = this.app.loadImage("/data/Jugadores/Oveja/arrastrandoseD.png");
+        this.arrastrandoseI = this.app.loadImage("./data/Jugadores/Oveja/arrastrandoseI.png");
+        this.arrastrandoseD = this.app.loadImage("./data/Jugadores/Oveja/arrastrandoseD.png");
 
-        this.frenandoI = this.app.loadImage("/data/Jugadores/Oveja/frenandoI.png");
-        this.frenandoD = this.app.loadImage("/data/Jugadores/Oveja/frenandoD.png");
+        this.frenandoI = this.app.loadImage("./data/Jugadores/Oveja/frenandoI.png");
+        this.frenandoD = this.app.loadImage("./data/Jugadores/Oveja/frenandoD.png");
 
-        this.elevandoI = this.app.loadImage("/data/Jugadores/Oveja/elevandoI.png");
-        this.elevandoD = this.app.loadImage("/data/Jugadores/Oveja/elevandoD.png");
+        this.elevandoI = this.app.loadImage("./data/Jugadores/Oveja/elevandoI.png");
+        this.elevandoD = this.app.loadImage("./data/Jugadores/Oveja/elevandoD.png");
 
-        this.fallingI = this.app.loadImage("/data/Jugadores/Oveja/cayendoI.png");
-        this.fallingD = this.app.loadImage("/data/Jugadores/Oveja/cayendoD.png");
+        this.fallingI = this.app.loadImage("./data/Jugadores/Oveja/cayendoI.png");
+        this.fallingD = this.app.loadImage("./data/Jugadores/Oveja/cayendoD.png");
 
 
 

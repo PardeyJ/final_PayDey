@@ -20,43 +20,43 @@ class Pantalla {
         this.app = app;
 
         //audio
-        this.boton = this.app.loadSound("/data/Audio/button.mp3");
+        this.boton = this.app.loadSound("./data/Audio/button.mp3");
         //fuentes
-        this.fuente = this.app.loadFont("/data/Fonts/Kidstar.ttf")
+        this.fuente = this.app.loadFont("./data/Fonts/Kidstar.ttf")
 
         this.nivel = "Main";
 
         //nubes del main
-        this.nubes = this.app.loadImage("/data/Escenario/Nubes/nubes.png");
+        this.nubes = this.app.loadImage("./data/Escenario/Nubes/nubes.png");
         this.nubes1x = -100;
         this.nubes2x = 3900;
 
         //instrucciones
-        this.intrucciones = this.app.loadImage("/data/Escenario/Iconos/instrucciones.png")
-        this.volver = this.app.loadImage("/data/Escenario/Iconos/back.png")
+        this.intrucciones = this.app.loadImage("./data/Escenario/Iconos/instrucciones.png")
+        this.volver = this.app.loadImage("./data/Escenario/Iconos/back.png")
 
         //logo
-        this.logo = this.app.loadImage("/data/Escenario/Iconos/logo.png");
+        this.logo = this.app.loadImage("./data/Escenario/Iconos/logo.png");
         this.logoY = 200;
         this.logoYMul = 0.2;
         this.logoZoom = 1;
         this.logoMul = 0.0025;
 
         //fondo
-        this.fondo = this.app.loadImage("/data/Escenario/Nubes/fondo.png")
-        this.montaña = this.app.loadImage("/data/Escenario/Nubes/montaña.png");
+        this.fondo = this.app.loadImage("./data/Escenario/Nubes/fondo.png")
+        this.montaña = this.app.loadImage("./data/Escenario/Nubes/montaña.png");
 
         //marca
         this.fuenteZoom = 25;
         this.fuenteMul = 0.2;
 
         //botones
-        this.help = this.app.loadImage("/data/Escenario/Iconos/help.png");
-        this.jugar = this.app.loadImage("/data/Escenario/Iconos/jugar.png");
-        this.back = this.app.loadImage("/data/Escenario/Iconos/back.png");
+        this.help = this.app.loadImage("./data/Escenario/Iconos/help.png");
+        this.jugar = this.app.loadImage("./data/Escenario/Iconos/jugar.png");
+        this.back = this.app.loadImage("./data/Escenario/Iconos/back.png");
 
         //puntaje
-        this.puntuacion = this.app.loadImage("/data/Escenario/Iconos/score.png");
+        this.puntuacion = this.app.loadImage("./data/Escenario/Iconos/score.png");
         this.aumento = 0;
         this.crecimiento = 0;
         this.unoPuntaje = 0;

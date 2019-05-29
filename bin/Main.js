@@ -15,8 +15,8 @@ new p5(function (app) {
 
 
     app.preload = function () {
-        menus = app.loadSound("/data/Audio/menus.mp3");
-        gameplay = app.loadSound("/data/Audio/gameplay.mp3");
+        menus = app.loadSound("./data/Audio/menus.mp3");
+        gameplay = app.loadSound("./data/Audio/gameplay.mp3");
     }
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -22,10 +22,10 @@ class Suelo {
         this.pos = this.app.createVector(this.x, this.y);
         this.ancho = 100;
         this.alto = 100;
-        this.tierra = this.app.loadImage("/data/Escenario/Suelo/tierra.png");
-        this.cesped = this.app.loadImage("/data/Escenario/Suelo/cesped.png");
-        this.piedra = this.app.loadImage("/data/Escenario/Suelo/piedra.png");
-        this.pasto = this.app.loadImage("/data/Escenario/Suelo/pasto.png");
+        this.tierra = this.app.loadImage("./data/Escenario/Suelo/tierra.png");
+        this.cesped = this.app.loadImage("./data/Escenario/Suelo/cesped.png");
+        this.piedra = this.app.loadImage("./data/Escenario/Suelo/piedra.png");
+        this.pasto = this.app.loadImage("./data/Escenario/Suelo/pasto.png");
 
         //decoracion del bloque de suelo
 

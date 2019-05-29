@@ -24,8 +24,8 @@ class Cuadricula {
         this.ancho = 100;
         this.alto = 100;
         this.ocupado = false;
-        this.cuadroD = this.app.loadImage("/data/Escenario/Iconos/desocupado.png");
-        this.cuadroO = this.app.loadImage("/data/Escenario/Iconos/ocupado.png");
+        this.cuadroD = this.app.loadImage("./data/Escenario/Iconos/desocupado.png");
+        this.cuadroO = this.app.loadImage("./data/Escenario/Iconos/ocupado.png");
 
     } //cierra el constructor
 
